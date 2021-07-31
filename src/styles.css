@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.buttons {
+  position: absolute;
+  right: 5px;
+  gap: 10px;
+}
+
+span.plus {
+  background: -webkit-linear-gradient(darkgreen, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+button {
+  background-color: gray;
+  color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.dir {
+  height: 30px;
+  width: 100px;
+}
+button.num {
+  height: 30px;
+  width: 30px;
+}
+button:disabled {
+  color: darkslategray;
+  cursor: auto;
+}
+
+table {
+  background-color: #111111;
+  color: darkgrey;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px;
+  height: 40px;
+}
+th {
+  text-align: left;
+  cursor: pointer;
+}
+th.name {
+  padding-left: 70px;
+}
+th.number {
+  width: 150px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #222222;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #333333;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 40px;
+}
